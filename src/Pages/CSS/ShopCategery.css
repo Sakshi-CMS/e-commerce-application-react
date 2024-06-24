@@ -1,0 +1,34 @@
+.banner_size {
+    height: 350px;
+    width: 1200px;
+  }
+  
+  .shopcategory-indexSort {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 170px; 
+    margin-top: 20px;/* Changed margin format */
+  }
+  
+  .shopcategory-Sort {
+    margin-top: 20px;
+  }
+  
+  .shopcategory-indexSort p span {
+    font-weight: 600;
+  }
+  
+  .shopcategory-product {
+    margin: 20px 170px;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+  }
+  
+  .shopcategory-product .product-item {
+    width: calc(25% - 20px); 
+    margin-bottom: 20px;
+    margin: 20px; 
+  }
+  

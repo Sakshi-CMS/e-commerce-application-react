@@ -1,0 +1,46 @@
+.hero {
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 70%);
+}
+
+.container-fluid {
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 70%);
+}
+
+.hero-left p {
+    font-weight: bold;
+    margin-left: 180px; 
+}
+.new-coll-text {
+    color: #171717;
+    font-size: 60px;
+    font-weight: 700px; 
+    margin-left: 180px;
+    color: #171717;
+    text-align: left; 
+}
+.new-arriwal{
+    margin-top: 100px;
+}
+.new-coll-btn{
+    margin-left: 180px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    height: 35px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background: #ff4141;
+    color: white;
+    font-size: 15px;
+    font-weight: 500px;
+}
+.arw{
+    color: white;
+    margin-left: 10px;
+}
+.btnds{
+    cursor: pointer; 
+}

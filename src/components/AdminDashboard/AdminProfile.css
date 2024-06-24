@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align items horizontally at the center */
+    margin-top: 20px;
+    background-color: white;
+  }
+  
+  .container > div {
+    display: flex;
+    align-items: center; /* Align items horizontally at the center */
+    margin-bottom: 10px;
+  }
+  
+  .container label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .container span {
+    flex: 1; /* Ensure spans take up remaining space */
+  }
+  
+  .cont-design {
+    height: auto; /* Adjust height as needed */
+    width: 100%; /* Ensure it fills the parent */
+    max-width: 500px; /* Optionally set a maximum width */
+  }
+  

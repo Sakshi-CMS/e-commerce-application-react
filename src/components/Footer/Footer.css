@@ -1,0 +1,65 @@
+.footer-container {
+    background-color: rgb(1, 1, 22);
+    padding: 20px;
+      display: flex;
+      flex-direction: column; /* Set container height to 100% of viewport height */
+
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Shopper_text{
+    color: white;
+    font-size: 38px;
+    font-weight: 600;
+   }
+
+  .footer-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links li {
+    display: inline;
+    margin-right: 10px;
+    color: white;
+  }
+  
+  .footer-social-icons {
+    display: flex;
+  }
+  
+  .footer-icon-container {
+    margin-right: 10px;
+  }
+  
+  .footer-copyright {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .footer-copyright hr {
+    width: 50%;
+    margin: auto;
+    color: grey;
+  }
+  
+  .footer-copyright p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: white;
+  }
+.image_size{
+     width: 40px;
+     height: 40px;
+
+    }  

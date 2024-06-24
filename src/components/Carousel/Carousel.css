@@ -1,0 +1,32 @@
+.custom-carousel {
+    max-width: 1300px; /* Set a maximum width for the carousel */
+    margin: auto; /* Center the carousel horizontally */
+  }
+  
+  .carousel-inner .carousel-item {
+    height: 350px; /* Set the height of the carousel items */
+  }
+  
+  .carousel-item img {
+    object-fit: cover;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    background: rgba(255, 255, 255, 0.5); 
+    width: 5%; 
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: brightness(0); /* Hide the default icon */
+  }
+  
+  .carousel-control-prev-icon:before,
+  .carousel-control-next-icon:before {
+    font-size: 2rem; 
+    color: black; 
+  }
+  .carousel-size{
+    height: 300px;
+  }

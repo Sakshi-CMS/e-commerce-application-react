@@ -1,0 +1,61 @@
+.btn-cont{
+    width: 425px;
+    height: 40px;
+    background: orangered;
+    color: white;
+}
+.background {
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22);
+  }
+  
+  .card {
+    border-radius: 0;
+  }
+  
+  .form-control {
+    border-radius: 0;
+  }
+  
+  .form-check-input[type="checkbox"] {
+    border: 2px solid orange; /* Orange border for checkbox */
+  }
+  
+  .text-center span {
+    color: rgb(226, 27, 27); /* Red color for "Login here" text */
+  }
+  
+  .container {
+    border-radius: 0;
+    align-items: center;
+  }
+  .container-wrapper{
+    height: 100vh;
+    overflow-y: auto;
+  }
+  .card {
+    border-radius: 0;
+    width: 90%; 
+    height: 430px; 
+    margin-bottom: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 0.5rem; 
+  }
+  
+  .form-check {
+    margin-top: 0.5rem; 
+  }
+
+  .form-check-label {
+    margin-bottom: 0; /* Remove bottom margin for checkbox label */
+    display: inline-block; /* Make checkbox label inline */
+  }
+  
+  .form-check-input {
+    margin-right: 0.25rem; 
+    color: red;
+  }
+  .input-black {
+    color: black;
+  }

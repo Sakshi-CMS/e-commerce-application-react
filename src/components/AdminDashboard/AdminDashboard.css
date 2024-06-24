@@ -1,0 +1,64 @@
+.backgraund {
+    margin: 0;
+    padding: 0;
+    /* background-color: hwb(240 92% 4%);
+    color: #121213; */
+    background-color: hwb(0 100% 0%);
+    color: #111114;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .icon {
+    vertical-align: middle;
+    line-height: 1px;
+    font-size: 20px;
+  }
+  .icon_header {
+    vertical-align: middle;
+    line-height: 1px;
+    font-size: 26px;
+  }
+  .icon, .icon_header {
+    margin-right: 5px;
+  }
+  
+  .close_icon {
+    color: red;
+    margin-left: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 260px 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 3fr;
+    grid-template-areas:
+      'sidebar header header header'
+      'sidebar main main main';
+    height: 100vh;
+  }
+  /* Set admin dashboard container to take full height and width of the browser */
+.admin-dashboard-container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Adjust background and grid container styles as needed */
+.backgraund {
+  background-color: #f0f0f0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr;
+  height: 100%;
+}
+.content-container {
+  overflow-y: auto; /* Enable vertical scrolling */
+  padding: 20px; /* Add padding as needed */
+}
+
+  

@@ -1,0 +1,32 @@
+.Offers
+{
+  width :75%;
+  height :50vh;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  padding: 0px 140px;
+  margin-bottom: 100px;
+}
+.colour_fs{
+    color: #171717;
+    font-weight: 500;
+}
+.Offore-left button{
+    width:282px;
+    height: 50px;
+    border-radius: 35px;
+    background: #ff4141;
+    border: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+.offer-img{
+    width:250px;
+     height:400px;
+     margin-right: 150px;
+}
